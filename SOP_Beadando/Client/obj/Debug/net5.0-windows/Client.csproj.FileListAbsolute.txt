@@ -1,0 +1,92 @@
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\bin\Debug\net5.0-windows\Client.exe
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\bin\Debug\net5.0-windows\Client.deps.json
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\bin\Debug\net5.0-windows\Client.runtimeconfig.json
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\bin\Debug\net5.0-windows\Client.runtimeconfig.dev.json
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\bin\Debug\net5.0-windows\Client.dll
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\bin\Debug\net5.0-windows\ref\Client.dll
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\bin\Debug\net5.0-windows\Client.pdb
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\bin\Debug\net5.0-windows\RestSharp.dll
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.csproj.AssemblyReference.cache
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.Form1.resources
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.Properties.Resources.resources
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.csproj.GenerateResource.cache
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.AssemblyInfoInputs.cache
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.AssemblyInfo.cs
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.csproj.CoreCompileInputs.cache
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.csproj.CopyComplete
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.dll
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\obj\Debug\net5.0-windows\ref\Client.dll
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.pdb
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.genruntimeconfig.cache
+C:\Users\szabo\OneDrive\Documents\EKE IK\2021-22\Szolgáltatásorientált programozás\Beadandó\Client\Client\bin\Debug\net5.0-windows\Client.dll.config
+C:\xampp\htdocs\Beadandó\Client\Client\bin\Debug\net5.0-windows\Client.exe
+C:\xampp\htdocs\Beadandó\Client\Client\bin\Debug\net5.0-windows\Client.dll.config
+C:\xampp\htdocs\Beadandó\Client\Client\bin\Debug\net5.0-windows\Client.deps.json
+C:\xampp\htdocs\Beadandó\Client\Client\bin\Debug\net5.0-windows\Client.runtimeconfig.json
+C:\xampp\htdocs\Beadandó\Client\Client\bin\Debug\net5.0-windows\Client.runtimeconfig.dev.json
+C:\xampp\htdocs\Beadandó\Client\Client\bin\Debug\net5.0-windows\Client.dll
+C:\xampp\htdocs\Beadandó\Client\Client\bin\Debug\net5.0-windows\ref\Client.dll
+C:\xampp\htdocs\Beadandó\Client\Client\bin\Debug\net5.0-windows\Client.pdb
+C:\xampp\htdocs\Beadandó\Client\Client\bin\Debug\net5.0-windows\RestSharp.dll
+C:\xampp\htdocs\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.Form1.resources
+C:\xampp\htdocs\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.Properties.Resources.resources
+C:\xampp\htdocs\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.csproj.GenerateResource.cache
+C:\xampp\htdocs\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.AssemblyInfoInputs.cache
+C:\xampp\htdocs\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.AssemblyInfo.cs
+C:\xampp\htdocs\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.csproj.CopyComplete
+C:\xampp\htdocs\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.dll
+C:\xampp\htdocs\Beadandó\Client\Client\obj\Debug\net5.0-windows\ref\Client.dll
+C:\xampp\htdocs\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.pdb
+C:\xampp\htdocs\Beadandó\Client\Client\obj\Debug\net5.0-windows\Client.genruntimeconfig.cache
+C:\xampp\htdocs\SOP_Beadandó\Client\bin\Debug\net5.0-windows\Client.exe
+C:\xampp\htdocs\SOP_Beadandó\Client\bin\Debug\net5.0-windows\Client.dll.config
+C:\xampp\htdocs\SOP_Beadandó\Client\bin\Debug\net5.0-windows\Client.deps.json
+C:\xampp\htdocs\SOP_Beadandó\Client\bin\Debug\net5.0-windows\Client.runtimeconfig.json
+C:\xampp\htdocs\SOP_Beadandó\Client\bin\Debug\net5.0-windows\Client.runtimeconfig.dev.json
+C:\xampp\htdocs\SOP_Beadandó\Client\bin\Debug\net5.0-windows\Client.dll
+C:\xampp\htdocs\SOP_Beadandó\Client\bin\Debug\net5.0-windows\Client.pdb
+C:\xampp\htdocs\SOP_Beadandó\Client\bin\Debug\net5.0-windows\RestSharp.dll
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\Client.csproj.AssemblyReference.cache
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\Client.Login.resources
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\Client.Properties.Resources.resources
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\Client.Register.resources
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\Client.csproj.GenerateResource.cache
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\Client.AssemblyInfoInputs.cache
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\Client.AssemblyInfo.cs
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\Client.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\Client.csproj.CopyComplete
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\Client.dll
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\refint\Client.dll
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\Client.pdb
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\Client.genruntimeconfig.cache
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\ref\Client.dll
+C:\xampp\htdocs\SOP_Beadandó\Client\obj\Debug\net5.0-windows\Client.App.resources
+C:\xampp\htdocs\SOP_Beadando\Client\bin\Debug\net5.0-windows\Client.exe
+C:\xampp\htdocs\SOP_Beadando\Client\bin\Debug\net5.0-windows\Client.dll.config
+C:\xampp\htdocs\SOP_Beadando\Client\bin\Debug\net5.0-windows\Client.deps.json
+C:\xampp\htdocs\SOP_Beadando\Client\bin\Debug\net5.0-windows\Client.runtimeconfig.json
+C:\xampp\htdocs\SOP_Beadando\Client\bin\Debug\net5.0-windows\Client.runtimeconfig.dev.json
+C:\xampp\htdocs\SOP_Beadando\Client\bin\Debug\net5.0-windows\Client.dll
+C:\xampp\htdocs\SOP_Beadando\Client\bin\Debug\net5.0-windows\Client.pdb
+C:\xampp\htdocs\SOP_Beadando\Client\bin\Debug\net5.0-windows\RestSharp.dll
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\Client.csproj.AssemblyReference.cache
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\Client.App.resources
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\Client.Login.resources
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\Client.Properties.Resources.resources
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\Client.Register.resources
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\Client.csproj.GenerateResource.cache
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\Client.AssemblyInfoInputs.cache
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\Client.AssemblyInfo.cs
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\Client.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\Client.csproj.CopyComplete
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\Client.dll
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\refint\Client.dll
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\Client.pdb
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\Client.genruntimeconfig.cache
+C:\xampp\htdocs\SOP_Beadando\Client\obj\Debug\net5.0-windows\ref\Client.dll
