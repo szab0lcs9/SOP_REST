@@ -48,6 +48,7 @@ namespace Client
             this.authorErrorNote = new System.Windows.Forms.Label();
             this.contentErrorNote = new System.Windows.Forms.Label();
             this.loginLabel = new System.Windows.Forms.LinkLabel();
+            this.resetLabel = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // title
@@ -272,12 +273,26 @@ namespace Client
             this.loginLabel.VisitedLinkColor = System.Drawing.Color.Black;
             this.loginLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.loginLabel_LinkClicked);
             // 
+            // resetLabel
+            // 
+            this.resetLabel.AutoSize = true;
+            this.resetLabel.LinkColor = System.Drawing.Color.Black;
+            this.resetLabel.Location = new System.Drawing.Point(772, 287);
+            this.resetLabel.Name = "resetLabel";
+            this.resetLabel.Size = new System.Drawing.Size(115, 15);
+            this.resetLabel.TabIndex = 20;
+            this.resetLabel.TabStop = true;
+            this.resetLabel.Text = "Set or reset database";
+            this.resetLabel.VisitedLinkColor = System.Drawing.Color.Black;
+            this.resetLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.resetLabel_LinkClicked);
+            // 
             // App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(1008, 561);
+            this.Controls.Add(this.resetLabel);
             this.Controls.Add(this.loginLabel);
             this.Controls.Add(this.contentErrorNote);
             this.Controls.Add(this.authorErrorNote);
@@ -327,6 +342,7 @@ namespace Client
         private System.Windows.Forms.Label authorErrorNote;
         private System.Windows.Forms.Label contentErrorNote;
         public System.Windows.Forms.LinkLabel loginLabel;
+        private System.Windows.Forms.LinkLabel resetLabel;
     }
 }
 

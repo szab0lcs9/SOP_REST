@@ -33,7 +33,7 @@ namespace Client
 
         private void login_button_Click(object sender, EventArgs e)
         {
-            ROUTE = "/?comm=login";
+            ROUTE += "/?comm=login";
             var client = new RestClient(URL);
             var request = new RestRequest(ROUTE, Method.POST);
             request.RequestFormat = DataFormat.Json;

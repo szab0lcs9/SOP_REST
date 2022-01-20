@@ -6,15 +6,26 @@ $database = new Database();
 $db = $database->connect();
 
 function set_reset_db($db) {
-    drop_table($db);
+    drop_jokes_table($db);
+    drop_users_table($db);
     create_user_table($db);
     create_jokes_table($db);
     fill_table($db);
+
+    echo json_encode(array("message" => "Database has been reset successfully!"));
+
 }
 
 
-function drop_table($db) {
+function drop_jokes_table($db) {
     $query = "DROP TABLE IF EXISTS corny_jokes";
+
+    $stmt = $db->prepare($query);
+    $stmt->execute();
+}
+
+function drop_users_table($db) {
+    $query = "DROP TABLE IF EXISTS users";
 
     $stmt = $db->prepare($query);
     $stmt->execute();

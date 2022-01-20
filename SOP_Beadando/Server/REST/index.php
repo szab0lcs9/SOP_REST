@@ -13,8 +13,9 @@ $database = new Database();
 $db = $database->connect();
 
 /*
- * Uncomment the following line to set/reset Database.
+ * Uncomment the following line to set/reset database manually when client starts.
  */
+
 //set_reset_db($db);
 
 $joke = new Joke($db);
@@ -50,6 +51,10 @@ switch ($request_method) {
 
                 case 'register':
                         create();
+                        break;
+
+                case 'reset':
+                        set_reset_db($db);
                         break;
 
                 default:

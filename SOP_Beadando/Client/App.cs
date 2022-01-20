@@ -239,5 +239,14 @@ namespace Client
                 return true;
             }
         }
+
+        private void resetLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ROUTE += "/?comm=reset";
+            var client = new RestClient(URL);
+            var request = new RestRequest(ROUTE, Method.POST);
+            IRestResponse response = client.Execute(request);
+            MessageBox.Show(response.Content);
+        }
     }
 }
