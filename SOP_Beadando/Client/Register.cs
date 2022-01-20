@@ -21,15 +21,16 @@ namespace Client
             InitializeComponent();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void signInLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Login loginForm = new Login();
-            this.Close();
             loginForm.Show();
+            this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void registerButton_Click(object sender, EventArgs e)
         {
+            ROUTE += "/?comm=register";
             var client = new RestClient(URL);
             var request = new RestRequest(ROUTE, Method.POST);
             request.RequestFormat = DataFormat.Json;
@@ -40,6 +41,12 @@ namespace Client
             });
             IRestResponse response = client.Execute(request);
             MessageBox.Show(response.Content);
+            if (response.Content.Contains("Success"))
+            {
+                Login loginForm = new Login();
+                loginForm.Show();
+                this.Close();
+            }
         }
     }
 }

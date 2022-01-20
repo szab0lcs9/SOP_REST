@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -219,16 +220,24 @@ namespace Client
             loginForm.Show();
         }
         
-        public void getLoginData(RestClient client, RestRequest request)
+        public bool getLoginData(RestClient client, RestRequest request)
         {
             IRestResponse response = client.Execute(request);
             string[] content = response.Content.Trim().Split(',');
-            MessageBox.Show(content[0]);
-            string[] jwt = content[1].Split(':');
-            token = jwt[1];
-            token = token.Remove(token.Length - 1);
-            token = token.Trim('"');
-            loginLabel.Text = "Logged in: " + token;
+            if (content[0] == "" || content[0].Contains("failed"))
+            {
+                MessageBox.Show("Invalid username or password!");
+                return false;
+            }
+            else
+            {
+                MessageBox.Show(content[0]);
+                string[] jwt = content[1].Split(':');
+                token = jwt[1];
+                token = token.Remove(token.Length - 1);
+                token = token.Trim('"');
+                return true;
+            }
         }
     }
 }

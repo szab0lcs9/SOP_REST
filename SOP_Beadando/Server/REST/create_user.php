@@ -21,7 +21,7 @@ function create() {
 
     if ($user->userExists($user->username))
         echo json_encode(array("message" => "User already exists."));
-    elseif (!empty($user->username) && !empty($user->password) && $user->create())
+    elseif (!is_null($user->username) && !is_null($user->password) && $user->create())
         echo json_encode(array("message" => "User Successfully Created."));
     else
         echo json_encode(array("message" => "User Creation Failed."));

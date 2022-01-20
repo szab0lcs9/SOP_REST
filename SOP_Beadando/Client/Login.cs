@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -16,21 +17,23 @@ namespace Client
     {
         static String URL = "http://localhost:80/SOP_Beadando/Server/REST/";
         static String ROUTE = "index.php";
+
         public Login()
         {
             InitializeComponent();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void registerLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Register registerForm = new Register();
-            this.Hide();
             registerForm.Show();
+            this.Close();
 
         }
 
         private void login_button_Click(object sender, EventArgs e)
         {
+            ROUTE = "/?comm=login";
             var client = new RestClient(URL);
             var request = new RestRequest(ROUTE, Method.POST);
             request.RequestFormat = DataFormat.Json;
@@ -40,8 +43,9 @@ namespace Client
                 Password = passwordTextBox.Text
             });
             App app = new App();
-            app.getLoginData(client, request);
-            this.Close();
+            bool result = app.getLoginData(client, request);
+            if (result)
+                this.Close();
         }
     }
 }

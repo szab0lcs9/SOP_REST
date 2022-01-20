@@ -34,24 +34,37 @@ switch ($request_method) {
 
     case 'POST':
         $data = json_decode(file_get_contents('php://input'), true);
-        foreach ($data as $item => $value) {
-            if ($item == "username")
-                if ($user->userExists($value)) {
-                    $jwt = login();
+        if (!empty($_GET["comm"]))
+        {
+            switch (strval($_GET["comm"])){
+                case 'login':
+                    foreach ($data as $item => $value) {
+                        if ($item == "Username") {
+                            if ($user->userExists($value)) {
+                                $jwt = login();
+                                break;
+                            }
+                        }
+                    }
                     break;
-                }
-                else
-                    create();
-            else {
-                $token = strval($_GET["jwt"]);
-                $data = validate($token);
 
+                case 'register':
+                        create();
+                        break;
+
+                default:
+                    break;
+            }
+        }
+        else {
+            $token = strval($_GET["jwt"]);
+            $data = validate($token);
+            if (!is_null($data)){
                 $items = array();
                 foreach ($data as $item => $value)
                     $items[$item] = $value;
                 $author = $items["username"];
                 $joke->insert_joke($author);
-                break;
             }
         }
         break;

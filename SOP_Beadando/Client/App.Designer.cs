@@ -48,7 +48,6 @@ namespace Client
             this.authorErrorNote = new System.Windows.Forms.Label();
             this.contentErrorNote = new System.Windows.Forms.Label();
             this.loginLabel = new System.Windows.Forms.LinkLabel();
-            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // title
@@ -226,6 +225,7 @@ namespace Client
             this.label4.Size = new System.Drawing.Size(47, 15);
             this.label4.TabIndex = 15;
             this.label4.Text = "Author:";
+            this.label4.Visible = false;
             // 
             // authorTextBox
             // 
@@ -234,6 +234,7 @@ namespace Client
             this.authorTextBox.Name = "authorTextBox";
             this.authorTextBox.Size = new System.Drawing.Size(100, 30);
             this.authorTextBox.TabIndex = 16;
+            this.authorTextBox.Visible = false;
             // 
             // authorErrorNote
             // 
@@ -271,23 +272,12 @@ namespace Client
             this.loginLabel.VisitedLinkColor = System.Drawing.Color.Black;
             this.loginLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.loginLabel_LinkClicked);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(247, 539);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 15);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "label5";
-            this.label5.Visible = false;
-            // 
             // App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(1008, 561);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.loginLabel);
             this.Controls.Add(this.contentErrorNote);
             this.Controls.Add(this.authorErrorNote);
@@ -337,7 +327,6 @@ namespace Client
         private System.Windows.Forms.Label authorErrorNote;
         private System.Windows.Forms.Label contentErrorNote;
         public System.Windows.Forms.LinkLabel loginLabel;
-        public System.Windows.Forms.Label label5;
     }
 }
 
