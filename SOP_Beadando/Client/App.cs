@@ -224,9 +224,13 @@ namespace Client
         {
             IRestResponse response = client.Execute(request);
             string[] content = response.Content.Trim().Split(',');
-            if (content[0] == "" || content[0].Contains("failed"))
+            if (content[0] == "")
             {
-                MessageBox.Show("Invalid username or password!");
+                if (content[0].Contains("failed"))
+                {
+                    MessageBox.Show("Invalid username or password!");
+                    return false;
+                }
                 return false;
             }
             else
