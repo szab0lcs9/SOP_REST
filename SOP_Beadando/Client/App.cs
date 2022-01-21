@@ -231,6 +231,7 @@ namespace Client
                     MessageBox.Show("Invalid username or password!");
                     return false;
                 }
+                MessageBox.Show("Invalid username or password!");
                 return false;
             }
             else
